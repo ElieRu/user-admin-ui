@@ -1,21 +1,63 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import TableVue from '../views/Table.vue'
+import DashboardVue from '../views/Dashboard.vue'
+import ProfileVue from '@/views/Profile.vue'
+import BlankPageVue from '@/views/BlankPage.vue'
+import NotFoundVue from '@/views/NotFound.vue'
+
+// Authentication...
+import SignInVue from '@/views/Auth/SignIn.vue'
+import SignUpVue from '@/views/Auth/SignUp.vue'
+import ForgotPasswordVue from '@/views/Auth/ForgotPassword.vue'
+import ResetPasswordVue from '@/views/Auth/ResetPassword.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView
+      name: 'dashboard',
+      component: DashboardVue
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
+      path: '/table',
+      name: 'table',
+      component: TableVue
+    },
+    {
+      path: '/profile',
+      name: 'profile',
+      component: ProfileVue
+    },
+    {
+      path: '/blank-page',
+      name: 'blank_page',
+      component: BlankPageVue
+    },
+    {
+      path: '/404',
+      name: 'not_found',
+      component: NotFoundVue
+    },
+    {
+      path: '/signin',
+      name: 'signin',
+      component: SignInVue
+    },
+    {
+      path: '/signup',
+      name: 'signup',
+      component: SignUpVue
+    },
+    {
+      path: '/forgot-password',
+      name: 'forgot_password',
+      component: ForgotPasswordVue
+    },
+    {
+      path: '/reset-password',
+      name: 'reset_password',
+      component: ResetPasswordVue
     }
   ]
 })
