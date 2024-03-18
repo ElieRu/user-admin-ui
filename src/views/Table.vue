@@ -211,7 +211,7 @@
                                 <div class="dropdown-menu" style="overflow: hidden">
                                   <a class="dropdown-item" href="#">Update</a
                                   ><a class="dropdown-item" href="#">Delete</a
-                                  ><a class="dropdown-item" href="profile.html">Show profile</a>
+                                  ><a class="dropdown-item" href="/profile">Show profile</a>
                                 </div>
                               </div>
                             </td>
