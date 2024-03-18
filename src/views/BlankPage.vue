@@ -15,6 +15,21 @@
           <div class="row d-block" style="height: 100%">
             <div class="col">
               <h1 class="mt-2 mb-4">Blank page</h1>
+
+              <div class="dropdown">
+                <button
+                  class="btn btn-primary dropdown-toggle"
+                  aria-expanded="false"
+                  data-bs-toggle="dropdown"
+                  type="button"
+                ></button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">First Item</a
+                  ><a class="dropdown-item" href="#">Second Item</a
+                  ><a class="dropdown-item" href="#">Third Item</a>
+                </div>
+              </div>
+              
             </div>
           </div>
         </div>
