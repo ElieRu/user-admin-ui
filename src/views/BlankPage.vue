@@ -15,11 +15,16 @@
           <div class="row d-block" style="height: 100%">
             <div class="col">
               <h1 class="mt-2 mb-4">Blank page</h1>
+
+              
+
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    
 
     <MyMenu :my_router="my_router"></MyMenu>
   </div>
