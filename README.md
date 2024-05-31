@@ -1,5 +1,5 @@
 # About
-The [User Admin Ui](https://user-admin-ui.netlify.app/) is a showcase site or a template which require the server side to allow admins to manage users in entrepises.
+The [user-admin-ui](https://user-admin-ui.netlify.app/) is a showcase site or a template which require the server side to allow admins to manage users in entrepises.
 
 ## Built with
 
